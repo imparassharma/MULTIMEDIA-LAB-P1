@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #a4eb6a;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+    background-image: url(images/bg.png);
+    background-size: contain;
+    background-position: 5rem -4rem;
+    background-repeat: no-repeat;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 22rem;
+    background-color: #15472ac4;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    box-shadow: 8px -5px 2px rgba(27, 26, 26, 0.349);
+}
+
+form h1{
+   color: #F1F6F9;
+}
+
+label{
+    color: #C9D6DF;
+}
+
+hr{
+    border-color: rgb(1, 6, 46);
+    opacity: 0.7;
+    width: 16vw;
+    margin-top: -10px;
+    margin-bottom: 1rem;
+}
+
+.input-check{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #9BA4B4;
+    height: 13vh;
+}
+
+input{
+    height: 4.5vh;
+    width: 16rem;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    text-indent: 20px;
+}
+
+#submit{
+    background-color: #BBE1FA;
+    color: #212333;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 5px;
+    height: 6vh;
+    text-indent: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+}
+
+.validation{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 44px;
+    right: 10px;
+}
+
+.error{
+    display: none;
+    margin-right: -5px;
+    color: rgb(236, 89, 89);
+}
+
+.valid{
+    display: none;
+    color: lawngreen;
+}
+
+.fail .error{
+    display: block;
+}
+
+.success .valid{
+    display: block;
+}
+
+small{
+    display: none;
+    margin-top: 2px;
+}
+
+.show{
+    display: block;
+    color: rgb(236, 89, 89);
+}
+
+
+@media screen and (max-width:400px) {
+
+    body{
+        background-position: 0rem -2rem;
+    }
+
+    form{
+        height: 35rem;
+        width: 21rem;
+    }
+    
+}
