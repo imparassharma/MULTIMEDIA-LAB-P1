@@ -6,6 +6,40 @@ body{
     margin: 0;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    gap: 45%;
+}
+
+header h1{
+    font-size: 38px;
+    margin-top: -1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header button{
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #128f84;
+    color: white;
+    cursor: pointer;
+}
+
 
 h1{
     color: #66BFBF;
